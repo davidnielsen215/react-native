@@ -26,7 +26,7 @@ export default class App extends React.Component {
         <TouchableOpacity onPress={this.handlePress}>
           {/* Button and Alert */}
         </TouchableOpacity>
-        <Button title='Get Started' color='white' onPress={() => Alert.alert('Cannot Locate Users')}/>
+        <Button title='Get Started' color='white' onPress={() => Alert.alert('Feature not availble')}/>
         {/* <Text style={styles.font}>Click 'Get Started' to begin</Text> */}
         <FetchLocation/>
           </LinearGradient>
